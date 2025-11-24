@@ -1,15 +1,36 @@
-name: Hello Natixis
+name: Trabalho1
 
 on:
   workflow_dispatch:
 
 
 jobs:
-  hello-natixis:
+  build:
     runs-on: ubuntu-latest
 
 
     steps:
-      - name: Say Hello
-        run: 
-          echo "Hello Natixis"
+      - name: Obter código
+        run: echo "Obtivemos o código"
+
+      - name: Instalar Dependências
+        run: echo "Instalação das dependências"
+
+      - name: Rodar Teste
+        run: echo "Rodar o teste"
+
+
+    
+  deploy:
+    runs-on: ubuntu-latest
+    
+
+    steps:
+      - name: Obter código
+        run: echo "Obtivemos o código"
+
+      - name: Instalar Dependências
+        run: echo "Instalação das dependências"
+
+      - name: Rodar Teste
+        run: echo "Rodar o teste"
