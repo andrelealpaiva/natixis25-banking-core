@@ -1,4 +1,4 @@
-name: Trabalho1
+name: trabalho1
 
 on:
   workflow_dispatch:
