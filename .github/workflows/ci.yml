@@ -48,4 +48,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: andrelourenco89302/trabalho_final_devops
